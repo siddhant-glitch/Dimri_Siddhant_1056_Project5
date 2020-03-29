@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.hidden{
+	display: none;
+}
+.container{
+	width: 90%;
+	background-color: lightsteelblue;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.mainHeader{
+	margin: 0 auto;
+	width:90%;
+	height: 100px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	padding: 10%;
+	width: 40%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.mainNav{
+	padding: 10%;
+	width: 2%;
+	background-color: hotpink;
+}
+
+.hero{
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: black;
+	align-items: center;
+	margin-top: 50px;
+
+}
+
+.postContainer{
+	display: flex;
+	flex-direction: column;
+	background-color: red;
+	padding-bottom: 25px;
+}
+
+.post{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 80%;
+	height: 300px;
+	background-color: black;
+}
+
+.footer{
+	display: none;
+}
+
+@media screen and (min-width: 700px){
+
+.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.logo{
+	max-width: 100%;
+	float: left;
+}
+.mainNav{
+	float: right;
+	max-width: 100%;
+}
+.hero{
+	margin-top: 20%;
+	max-width: 100%;
+}
+
+.postContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.post{
+	width: 40%;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.footerNav{
+	padding-top: 10%;
+	margin: 5% 0 2% 0;
+	width: 50%;
+	background-color: hotpink;
+}
+
+
+}
